@@ -21,7 +21,6 @@ LinkFiles() {
   if [[ -d $1 ]]; then
     echo "Searching directory: $1"
     declare -a files=($(ls -B $1 | grep -v -E "${TMP_INDEX_FILE}|\\s" | sort)) # Ignore files with spaces
-    echo "fil: $files"
     for item in ${files[@]}; do
       LinkFiles "$1/$item" $2
     done
