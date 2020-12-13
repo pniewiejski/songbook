@@ -15,6 +15,10 @@ $(MAINFILE).pdf:
 show:
 	open ./$(OUT_DIR)/$(MAINFILE).pdf
 
+.PHONY: link
+link:
+	./link-songs.sh
+
 .PHONY: clean
 clean:
 	-rm -f *.aux
