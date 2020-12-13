@@ -2,14 +2,18 @@ SRC_DIR = src
 OUT_DIR = build
 $(shell mkdir $(OUT_DIR) 2>/dev/null)
 
-MAINFILE := $(SRC_DIR)/songbook
+MAINFILE = songbook
 
 PDFLATEX = pdflatex
 PDFLATEX_FLAGS := -halt-on-error -output-directory $(OUT_DIR)
 
 $(MAINFILE).pdf:
-		$(PDFLATEX) $(PDFLATEX_FLAGS) $(MAINFILE)
-		# $(PDFLATEX) $(PDFLATEX_FLAGS) $(MAINFILE)
+	$(PDFLATEX) $(PDFLATEX_FLAGS) $(MAINFILE)
+	# $(PDFLATEX) $(PDFLATEX_FLAGS) $(MAINFILE)
+
+.PHONY: show
+show:
+	open ./$(OUT_DIR)/$(MAINFILE).pdf
 
 .PHONY: clean
 clean:
@@ -19,6 +23,8 @@ clean:
 	-rm -f *.bbl
 	-rm -f *.blg
 	-rm -f *.out
+	-rm -f *.fls
+	-rm -f *.fdb_latexmk
 
 .PHONY: cleanall
 cleanall: clean

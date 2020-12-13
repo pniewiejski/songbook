@@ -22,8 +22,19 @@
 \author{\Author}
 \date{\today}
 
+% Chords
+\newcommand{\AMajor}{\chord{t}{x, o, p2, p2 , p2, o}{A}}
+\newcommand{\AMinor}{\chord{t}{x, o, p2, p2 , p1, o}{a}}
+
+% Create a wrapper around the guitarChord form guitar
+\newcommand{\C}[1]{\textbf{\guitarChord{#1}}}
+
 \begin{document}
-\include{titlepage}
+\input{titlepage}
+
+\begin{guitar}
+    \input{songs/index}
+\end{guitar}
 
 
 \end{document}
