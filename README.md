@@ -6,18 +6,24 @@ A simple songbook created with LaTeX
 
 I wanted to have my personalized songbook with all of my favorite campfire songs. 💁‍♂️
 
-Also, I thought that it would be cool to make it so that a person who does not have any experience with LaTeX could add songs and build a PDF.
-Thus, I needed a moderately simple solution - a few, easy to use, macros to describe things such as guitar chords etc. and a simple build process. Moreover, these qualities should allow for this project to be reusable.
+Also, I thought that it would be cool to make it so that a person who does not have any experience
+with LaTeX could add songs and build a PDF. Thus, I needed a moderately simple solution - a few,
+easy to use, macros to describe things such as guitar chords etc. and a simple build process.
+Moreover, these qualities should allow for this project to be reusable.
 
 To sum it all up, I'd like one of my favorite move characters to be able to use this project.
 
+<div align="center">
 <img
-    height="200"
+    height="300"
     alt="Forrest Gump"
     src="./docs/assets/forrestgump.gif"
 />
+</div>
 
-Like any r̵e̵a̵s̵o̵n̵a̵b̵l̵e̵ _lazy_ person would do, before I actually started working on this repo I thought: _Hey! I should find something ready to use on GitHub_. Sadly, there was nothing which would work as I wanted. Still, there are some really good projects out there. I'd like to mention:
+Like any r̵e̵a̵s̵o̵n̵a̵b̵l̵e̵ _lazy_ person would do, before I actually started working on this repo I
+thought: _Hey! I should find something ready to use on GitHub_. Sadly, there was nothing which would
+work as I wanted. Still, there are some really good projects out there. I'd like to mention:
 [tbabej/songbook](https://github.com/tbabej/songbook) and
 [dhil/best-aalborg-songbook](https://github.com/dhil/best-aalborg-songbook).
 
