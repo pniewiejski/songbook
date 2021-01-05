@@ -13,13 +13,11 @@ Moreover, these qualities should allow for this project to be reusable.
 
 To sum it all up, I'd like one of my favorite move characters to be able to use this project.
 
-<div align="center">
 <img
     height="300"
     alt="Forrest Gump"
     src="./docs/assets/forrestgump.gif"
 />
-</div>
 
 Like any r̵e̵a̵s̵o̵n̵a̵b̵l̵e̵ _lazy_ person would do, before I actually started working on this repo I
 thought: _Hey! I should find something ready to use on GitHub_. Sadly, there was nothing which would
