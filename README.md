@@ -11,14 +11,6 @@ with LaTeX could add songs and build a PDF. Thus, I needed a moderately simple s
 easy to use, macros to describe things such as guitar chords etc. and a simple build process.
 Moreover, these qualities should allow for this project to be reusable.
 
-To sum it all up, I'd like one of my favorite move characters to be able to use this project.
-
-<img
-    height="300"
-    alt="Forrest Gump"
-    src="./docs/assets/forrestgump.gif"
-/>
-
 Like any r̵e̵a̵s̵o̵n̵a̵b̵l̵e̵ _lazy_ person would do, before I actually started working on this repo I
 thought: _Hey! I should find something ready to use on GitHub_. Sadly, there was nothing which would
 work as I wanted. Still, there are some really good projects out there. I'd like to mention:
