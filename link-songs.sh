@@ -24,7 +24,7 @@ LinkFiles() {
     for item in ${files[@]}; do
       LinkFiles "$1/$item" $2
     done
-  elif [[ -f $1 && $(echo $1 | grep -E '\.tex') ]]; then
+  elif [[ -f $1 && $(grep -E '\.tex' <<< "$1") ]]; then
     echo "Processing file: $1"
     WriteInclude $1 $2
   fi
