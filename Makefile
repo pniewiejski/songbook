@@ -8,7 +8,7 @@ PDFLATEX = latexmk
 PDFLATEX_FLAGS := -output-directory=$(OUT_DIR) -pdf
 
 .PHONY: all
-all: $(MAINFILE).pdf ## ## Compile the LaTeX project. This will build a PDF document.
+all: $(MAINFILE).pdf ## Compile the LaTeX project. This will build a PDF document.
 
 $(MAINFILE).pdf:
 	$(PDFLATEX) $(PDFLATEX_FLAGS) $(MAINFILE)
